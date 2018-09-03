@@ -26,6 +26,22 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>nd4j-uberjar</artifactId>
 
+    <dependencyManagement>
+        <dependencies>
+            <!-- used to alleviate licensing issues with findbugs -->
+            <dependency>
+                <groupId>com.github.stephenc.findbugs</groupId>
+                <artifactId>findbugs-annotations</artifactId>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <scope>provided</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
