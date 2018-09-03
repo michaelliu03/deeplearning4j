@@ -215,7 +215,7 @@
             <plugin>
                 <groupId>com.lewisd</groupId>
                 <artifactId>lint-maven-plugin</artifactId>
-                <version>0.0.11</version>
+                <version>${maven-lint-plugin.version}</version>
                 <configuration>
                   <failOnViolation>true</failOnViolation>
                   <onlyRunRules>
