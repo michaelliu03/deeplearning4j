@@ -134,13 +134,11 @@
                <artifactId>datavec-camel</artifactId>
                <version>${project.version}</version>
             </dependency>
-            <!-->
-      <dependency>
-      <groupId>org.datavec</groupId>
-        <artifactId>datavec-data</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      -->
+            <!--<dependency>-->
+            <!--<groupId>org.datavec</groupId>-->
+              <!--<artifactId>datavec-data</artifactId>-->
+              <!--<version>${project.version}</version>-->
+            <!--</dependency>-->
             <dependency>
                <groupId>org.datavec</groupId>
                <artifactId>datavec-excel</artifactId>
@@ -171,11 +169,11 @@
                <artifactId>datavec-spark_2.10</artifactId>
                <version>${datavec.spark.version}</version>
             </dependency>
-            <dependency>
-               <groupId>org.datavec</groupId>
-               <artifactId>datavec-spark-inference-parent</artifactId>
-               <version>${datavec.spark.version}</version>
-            </dependency>
+            <!--<dependency>-->
+               <!--<groupId>org.datavec</groupId>-->
+               <!--<artifactId>datavec-spark-inference-parent</artifactId>-->
+               <!--<version>${project.version}</version>-->
+            <!--</dependency>-->
          </dependencies>
       </profile>
       <profile>
